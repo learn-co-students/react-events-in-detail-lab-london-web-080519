@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export class DelayedButton extends Component {
+export default class  DelayedButton extends Component {
     render() {
         return (
             <button 
@@ -15,4 +15,3 @@ export class DelayedButton extends Component {
     }
 }
 
-export default DelayedButton;
